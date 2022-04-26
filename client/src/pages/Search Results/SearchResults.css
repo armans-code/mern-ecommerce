@@ -1,0 +1,25 @@
+.s {
+	display: flex;
+	flex-direction: column;
+}
+
+.search {
+	height: 90vh;
+}
+
+.search > h4 {
+	color: #212529 !important;
+	font-size: calc(1.5rem + 0.3vw);
+	font-weight: 600;
+	line-height: 1.25;
+}
+
+.search__list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: auto;
+}
+
+.search__list__product {
+	margin-top: 2rem;
+}

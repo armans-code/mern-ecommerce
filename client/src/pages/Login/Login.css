@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.login {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10rem;
+}
+
+.login__card {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	padding: 2rem 0 1rem 0;
+	border-radius: 25px;
+	box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+	align-items: center;
+}
+
+.login__card__title {
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+}
+
+.login__card__title > h2 {
+	font-size: 2rem;
+	margin: 0;
+}
+
+.login__card__providers {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 3rem;
+	margin: 0 auto 0.75rem;
+}
+
+.login__card__providers > button {
+	padding: 8px;
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #eff2f5;
+	border: 0;
+	cursor: pointer;
+}
+
+.login__card__separator > span {
+	background-color: white;
+	padding: 0 1rem;
+	display: inline-block;
+	z-index: 2;
+	color: #96a0b5;
+	margin-bottom: 0.5rem;
+}
+
+.login__card__form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.login__card__form > input[type='text'],
+input[type='password'] {
+	border: 0;
+	outline: 0;
+	background: #dfe9f5;
+	padding: 0.8rem 2rem;
+	text-indent: 5%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.login__card__form > button {
+	font-size: 1.1rem;
+	margin-top: 1rem;
+	padding: 0.8rem 2rem;
+	border-radius: 5px;
+	outline: 0;
+	border: 0;
+	width: 85%;
+	background-color: #f37180;
+	color: white;
+	cursor: pointer;
+}
+
+.login__card__form > button:hover {
+	background-color: #e35d6c;
+}
+
+.login__card__register {
+	display: flex;
+	gap: 0.3rem;
+	font-size: 0.9rem;
+	margin-top: 1.4rem;
+	flex-direction: row;
+}
+
+.login__card__register__link {
+	text-decoration: none;
+	color: #e35d6c;
+}

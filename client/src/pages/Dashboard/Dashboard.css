@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+.dashboard {
+	display: flex;
+	background-color: #f7faff;
+	height: 100vh;
+}
+
+.dashboard__right {
+	background-color: white;
+	flex: 1 1 auto;
+}
+
+.dashboard__right__top {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 2rem;
+}
+
+.dashboard__right__top > h1 {
+	margin: 0;
+	margin-left: 2rem;
+	font-weight: 700;
+	line-height: 1.5;
+	font-family: 'Lato', sans-serif;
+}

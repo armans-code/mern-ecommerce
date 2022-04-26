@@ -1,0 +1,28 @@
+.account__content {
+	display: flex;
+	flex-direction: row;
+	height: 90vh;
+}
+
+.account__content__right {
+	flex-grow: 1;
+	width: 100%;
+	height: 100%;
+	background-color: #f8f9fa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.account__content__right__form {
+	flex: 1 1 auto;
+}
+
+.account__content__right__form__lower {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.form__password__link > p {
+	margin: 0;
+}

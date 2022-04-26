@@ -1,0 +1,14 @@
+.cr {
+	display: flex;
+	flex-direction: column;
+}
+
+.cr__list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-auto-rows: auto;
+}
+
+.cr__list__card {
+	margin-top: 4rem;
+}

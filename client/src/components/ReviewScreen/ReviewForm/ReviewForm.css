@@ -1,0 +1,38 @@
+.review_form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	width: 400px;
+	height: auto;
+	padding: 1rem;
+	border-radius: 15px;
+	border: 1px solid #dee2e6;
+}
+
+.review_form > p {
+	margin: 0;
+}
+
+.review_form > h4 {
+	color: #212529 !important;
+	font-size: calc(1rem + 0.3vw);
+	font-weight: 600;
+	line-height: 1.25;
+}
+
+.review_form__bottom {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.review_form__bottom__rating {
+	display: flex;
+}
+
+.review_form__bottom__rec {
+	display: flex;
+	align-items: center;
+}

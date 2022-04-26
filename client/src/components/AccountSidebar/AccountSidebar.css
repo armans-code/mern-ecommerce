@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+.account-sidebar {
+	width: 250px;
+	background-color: white;
+	display: flex;	
+	flex-direction: column;
+}
+
+.account-sidebar__top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.account-sidebar__top__name > p {
+	font-size: 1.3rem;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+.account-sidebar__top__username > p {
+	font-size: 0.9rem;
+	font-family: 'Lato', sans-serif;
+}
+
+.account-sidebar__navigation {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	gap: 1rem;
+	font-size: 1rem;
+	margin-top: 1rem;
+	flex: 1 1 auto;
+}
+
+.navigation__top {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.nav_logout_btn {
+	flex: 1 1 auto;
+	background-color: transparent;
+	border: 0;
+	margin-bottom: 2rem;
+	padding: 0px;
+}
+
+.nav_logout_btn:hover {
+	cursor: pointer;
+}
+
+.nav_logout_btn > p {
+	margin: 0;
+	padding: 0;
+	color: #ef5350;
+}

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.register {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10rem;
+}
+
+.register__card {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	padding: 2rem 0 1rem 0;
+	border-radius: 25px;
+	box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+	align-items: center;
+}
+
+.register__card__form__names {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+}
+
+.register__card__form__names__first {
+	display: flex;
+	flex-direction: column;
+}
+
+.login__card__form__checkbox {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.login__card__form__checkbox > p {
+	margin: 0;
+}
+
+.register__card__form__names__first > input {
+	border: 0;
+	outline: 0;
+	background: #dfe9f5;
+	padding: 0.8rem 2rem;
+	text-indent: 5%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.last__name__input {
+	border: 0;
+	outline: 0;
+	background: #dfe9f5;
+	padding: 0.8rem 2rem;
+	text-indent: 5%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}

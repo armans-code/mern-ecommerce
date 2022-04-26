@@ -1,0 +1,4 @@
+*.env
+/uploads
+*.notes
+.DS_STORE
