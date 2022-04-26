@@ -10,6 +10,7 @@ This is a demo ecommerce store built with the full MERN stack. Includes two main
   * Express middleware to handle request, routes, authentication (JSON Web Tokens (JWT))
   * Cloudinary image management
   * React frontend to display components
+  * React context for managing auth/profile state
 * User Actions:
   * Search/browse for products
   * Add reviews/comments to products
