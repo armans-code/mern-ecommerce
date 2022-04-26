@@ -1,4 +1,5 @@
 # MERN Ecommerce Demo
+![Demo Copify](doc/mern.gif)
 ## Details
 This is a demo ecommerce store built with the full MERN stack. Includes two main roles:
 * Roles:
