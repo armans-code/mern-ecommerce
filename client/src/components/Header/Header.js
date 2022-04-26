@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useNavigate, useSearchParams } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Header.css';
 import { Input } from 'antd';
-import logo from '../../images/shopfity.png';
+import logo from '../../images/logo.svg';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { SEARCH_SUGGESTIONS } from '../../constants/SEARCH_SUGGESTIONS';
 import useAuth from '../../hooks/useAuth';
@@ -10,7 +10,6 @@ import UserDropdown from '../UserDropdown/UserDropdown';
 import { Stack } from '@mui/material';
 
 function Header() {
-	const [searchParams, setSearchParams] = useSearchParams();
 	const [suggestion, setSuggestion] = useState();
 	const { Search } = Input;
 

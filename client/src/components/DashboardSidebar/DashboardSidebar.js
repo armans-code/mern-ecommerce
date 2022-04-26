@@ -8,7 +8,7 @@ import NavSection from './NavSection';
 //
 import navConfig from './NavConfig';
 
-import photo from '../../images/shopfity.png';
+import photo from '../../images/logo.svg';
 import useAuth from '../../hooks/useAuth';
 
 // ----------------------------------------------------------------------
