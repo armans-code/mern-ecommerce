@@ -5,7 +5,7 @@ This is a demo ecommerce store built with the full MERN stack. Includes two main
 * Roles:
   * Member role (browse/search for products, add comments and reviews, etc.)
   * Merchant role (inlcudes member actions, as well as uploading products)
-* Features/tech:
+* Tech:
   * MongoDB document database and Mongoose object modeling
   * Express middleware to handle request, routes, authentication (JSON Web Tokens (JWT))
   * Cloudinary image management
@@ -13,7 +13,7 @@ This is a demo ecommerce store built with the full MERN stack. Includes two main
   * React context for managing auth/profile state
 * User Actions:
   * Search/browse for products
-  * Add reviews/comments to products
+  * Add reviews/comments to products (automatic rating average)
   * Add products to shopping cart with quantity
   * Upload products with product title, description, photo, category, quantity, price, etc.
   * View your uploaded products.
